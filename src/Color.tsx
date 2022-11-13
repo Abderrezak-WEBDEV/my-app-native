@@ -1,4 +1,4 @@
-const newColorTheme = {
+const Colors = {
   main: "#48B600",
   white: "#FFFFFF",
   black: "#000000",
@@ -13,3 +13,4 @@ const newColorTheme = {
   underLine: "#E5E5ES",
   paypal: "#FFB730",
 };
+export default Colors;

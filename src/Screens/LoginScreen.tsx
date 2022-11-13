@@ -34,7 +34,7 @@ const LoginScreen = () => {
         bg={Colors.deepstGray}
       >
         {/* Login */}
-        <Heading>Login</Heading>
+        <Heading color={Colors.deepstGray}>Login</Heading>
         <VStack space={8} pt="6">
           <Input
             InputLeftElement={
@@ -44,6 +44,7 @@ const LoginScreen = () => {
             placeholder="user@mail.com"
             isRequired
             w="70%"
+            size={40}
             color="white"
             borderBottomColor={Colors.underLine}
           />
@@ -56,6 +57,7 @@ const LoginScreen = () => {
             isRequired
             maxLength={15}
             w="70%"
+            size={40}
             color="white"
             borderBottomColor={Colors.underLine}
           />
@@ -69,7 +71,7 @@ const LoginScreen = () => {
             Login
           </Button>
           <Pressable mt={4}>
-            <Text color={Colors.deepstGray}>Sing UP</Text>
+            <Text color={Colors.deepstGray}>Créer un compte</Text>
           </Pressable>
         </VStack>
       </Box>
