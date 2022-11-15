@@ -14,6 +14,7 @@ import { Colors } from "react-native/Libraries/NewAppScreen";
 import { Ionicons } from "@expo/vector-icons";
 
 const LoginScreen = () => {
+  const [show, setShow] = React.useState(false);
   return (
     <Box flex={1} bg={Colors.black}>
       <Image

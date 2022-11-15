@@ -1,11 +1,11 @@
 import React from "react";
 import { NativeBaseProvider } from "native-base";
-import NotVerifyScreen from "./src/Screens/NotVerifyScreen";
+import HomeScreen from "./src/Screens/HomeScreen";
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <NotVerifyScreen></NotVerifyScreen>
+      <HomeScreen />
     </NativeBaseProvider>
   );
 }
