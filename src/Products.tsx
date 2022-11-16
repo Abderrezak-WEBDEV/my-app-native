@@ -24,7 +24,7 @@ const products =
     image:"https://img.ltwebstatic.com/images3_pi/2022/06/13/1655118714b519266960c4a3101f55b57baef11361_thumbnail_600x.webp",
     descrition: "lorem Ipsun is simply dymmy text of the printtin",
     price: 49,
-    rating: 4,
+    rating: 3.5,
     number:4
 },
 {
@@ -33,7 +33,7 @@ const products =
     image:"https://img.ltwebstatic.com/images3_pi/2022/06/13/1655118714b519266960c4a3101f55b57baef11361_thumbnail_600x.webp",
     descrition: "lorem Ipsun is simply dymmy text of the printtin",
     price: 60,
-    rating: 4,
+    rating: 2,
     number:4
 },
 {
@@ -42,7 +42,7 @@ const products =
     image:"https://img.ltwebstatic.com/images3_pi/2022/06/13/1655118714b519266960c4a3101f55b57baef11361_thumbnail_600x.webp",
     descrition: "lorem Ipsun is simply dymmy text of the printtin",
     price: 58,
-    rating: 4,
+    rating: 5,
     number:4
 },
 {
