@@ -2,6 +2,7 @@ import { Box, HStack, Input, Pressable } from "native-base";
 import React from "react";
 import Colors from "../Color";
 import { Entypo } from "@expo/vector-icons";
+import HomeProduct from "./HomeProduct";
 const HomeSearch = () => {
   return (
     <HStack
@@ -21,7 +22,7 @@ const HomeSearch = () => {
         h="12"
         borderWidth={0}
         _focus={{ bg: Colors.white }}
-        variant="underlined"
+        variant="filed"
         rounded={6}
       />
       <Pressable ml={3}>
@@ -38,6 +39,7 @@ const HomeSearch = () => {
           5
         </Box>
       </Pressable>
+   
     </HStack>
   );
 };
