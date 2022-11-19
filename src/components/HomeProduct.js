@@ -7,7 +7,7 @@ import Rating from "./Rating";
 
 const HomeProduct = () => {
   return (
-    <ScrollView flex={1}>
+    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
       <Flex flexWrap="wrap" direction ="row" justifyContent= "space-between" h={10} px={6}
       >
         {products.map((product)=>(
@@ -30,7 +30,7 @@ const HomeProduct = () => {
             <Box px={5} pt={2}>
               <Heading size="sm" bold> €{product.price}</Heading>
               <Text fontSize={10} mt={1} isTruncated w="full">{product.name}</Text>
-               <Rating/>
+               <Rating value = {product.rating} />
             </Box>
           </Pressable>
         ))}
